@@ -1,0 +1,35 @@
+ArmSwinger version: v1.3.2
+
+*** ChangeLog ***
+* v1.3.2 (11/03/2016)
+- Fix bug where rewinds and push backs moved the player incorrectly if the CameraRig was rotated
+
+* v1.3.1 (11/03/2016)
+- Merge in the custom button changes (GitHub version)
+- Fix a few instances that induce infinite rewinds, especially when the headset is active but not tracking.
+
+* v1.3 (09/24/2016)
+- Add support for setting a custom ArmSwing activator button (Menu, Grips, Touchpad Click, or Trigger)
+
+* v1.2 (08/23/2016)
+- Inspector now includes headers for each section of settings
+- playAreaHeightAdjustmentPaused now applies when arm swinging
+- all pause variables tested and handle unpausing better
+
+* v1.1 (08/2016)
+- Players no longer get stuck in walls or behind geometry if traveling at sufficient speed
+- Removed Wall Clip Speed Penalty
+- More reliably return to the Wall O' Settings in the test scene
+- ArmSwinger will now adjust the Fixed Timestep to 0.0111 (90 ticks per second) if it is set to a higher value.  Disable this behavior by disabling the "General - Auto Adjust Fixed Timestep" setting.  Higher values will cause jerky arm swing movement.
+
+* v1.0.2 (08/2016)
+- Push Back for instant climbing/falling should now work again
+
+* v1.0.1 (08/2016)
+- Fixed infinite rewind bug when a rewind moves the player up more than maxInstantHeightChange (https://github.com/ElectricNightOwl/ArmSwinger/issues/20)
+- Combined checksMinDistanceChangeToCheckAngles and rewindMinDistanceChangeToSavePosition to ensure unsafe positions aren't saved (https://github.com/ElectricNightOwl/ArmSwinger/issues/21)
+- Updated defaults in test scene and ArmSwinger.cs to account for these changes
+
+* v1.0 (08/2016)
+- Initial Release
+

@@ -46,6 +46,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\ArmSwinger\resources\scripts\PositionReset.cs" />
+     <Compile Include="Assets\ArmSwinger\resources\scripts\ResetToDefaults.cs" />
+     <Compile Include="Assets\ArmSwinger\resources\scripts\SettingsButton.cs" />
+     <Compile Include="Assets\ArmSwinger\resources\scripts\SettingsDisplay.cs" />
+     <Compile Include="Assets\ArmSwinger\scripts\ArmSwinger.cs" />
+     <Compile Include="Assets\ArmSwinger\scripts\HeadsetCollider.cs" />
      <Compile Include="Assets\PlayMaker\Actions\ActivateGameObject.cs" />
      <Compile Include="Assets\PlayMaker\Actions\AddAnimationClip.cs" />
      <Compile Include="Assets\PlayMaker\Actions\AddComponent.cs" />
@@ -920,6 +926,7 @@
      <Compile Include="Assets\TheLabRenderer\Scripts\openvr_api.cs" />
      <Compile Include="Assets\iTween\iTween.cs" />
      <None Include="Assets\TheLabRenderer\Resources\vr_quality_vis.shader" />
+     <None Include="Assets\ArmSwinger\README.txt" />
      <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
      <None Include="Assets\PlayMaker\Templates\readme.txt" />
      <None Include="Assets\PlayMaker\Readme.txt" />
@@ -931,6 +938,7 @@
      <None Include="Assets\TheLabRenderer\Shaders\vr_photogrammetry.shader" />
      <None Include="Assets\SteamVR\InteractionSystem\Teleport\Shaders\Highlight.shader" />
      <None Include="Assets\TheLabRenderer\Shaders\vr_matrix_palette_skinning.cginc" />
+     <None Include="Assets\ArmSwinger\CHANGELOG.txt" />
      <None Include="Assets\iTween\ReadMe!\ReadMe!.txt" />
      <None Include="Assets\PlayMaker\Resources\PlayMakerAssemblies.txt" />
      <None Include="Assets\TheLabRenderer\Shaders\vr_lighting.cginc" />

@@ -135,6 +135,7 @@
      <Compile Include="Assets\TheLabRenderer\Editor\ValveShaderGUI.cs" />
      <Compile Include="Assets\iTween\PlayMaker\Editor\iTweenMoveToActionEditor.cs" />
      <None Include="Assets\TheLabRenderer\Resources\vr_quality_vis.shader" />
+     <None Include="Assets\ArmSwinger\README.txt" />
      <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
      <None Include="Assets\PlayMaker\Templates\readme.txt" />
      <None Include="Assets\PlayMaker\Readme.txt" />
@@ -146,6 +147,7 @@
      <None Include="Assets\TheLabRenderer\Shaders\vr_photogrammetry.shader" />
      <None Include="Assets\SteamVR\InteractionSystem\Teleport\Shaders\Highlight.shader" />
      <None Include="Assets\TheLabRenderer\Shaders\vr_matrix_palette_skinning.cginc" />
+     <None Include="Assets\ArmSwinger\CHANGELOG.txt" />
      <None Include="Assets\iTween\ReadMe!\ReadMe!.txt" />
      <None Include="Assets\PlayMaker\Resources\PlayMakerAssemblies.txt" />
      <None Include="Assets\TheLabRenderer\Shaders\vr_lighting.cginc" />
